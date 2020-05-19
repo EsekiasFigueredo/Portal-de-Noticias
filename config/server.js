@@ -8,7 +8,7 @@ var app = express();
 app.set('view engine', 'ejs');
 app.set('views', './app/views');
 
-app.use(express.static('./app/public'));
+app.use(express.static('./app/public'));//utilizado para mapear os caminhosa da configuração na views
 app.use(bodyParse.urlencoded({extended:true}));//fazer a paremetrização para mostrar a url codificada
 app.use(expressValidator());
 
