@@ -19,7 +19,7 @@ module.exports.noticias_salvar = function(application,req,res){
     }
 
     var connection = application.config.dbConnection();
-    var noticiasModel = new application.app.models.NoticiasDAO(connection);// cooncentra todos os models em uma só lugar fazendo carregar auotmaticamento pelo consign
+    var noticiasModel = new application.app.models.NoticiasDAO(connection);// concentra todos os models em uma só lugar fazendo carregar auotmaticamento pelo consign
         // serve para validar os campos,se caso faltar alguma informação não sera inserido banco de dados
 
     noticiasModel.salvarNoticia(noticia,function(error, result){           
