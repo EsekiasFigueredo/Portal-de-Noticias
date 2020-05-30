@@ -1,4 +1,4 @@
 # Portal-de-Noticias
 
 Pagina Index
-![Screeshot](indexpage.png)
+![Optional Text](../master/indexpage.png)
